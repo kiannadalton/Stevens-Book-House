@@ -1,0 +1,53 @@
+body {
+  background-image: url(https://media.istockphoto.com/id/1424052498/photo/dark-blue-sky-with-stars-background.webp?b=1&s=170667a&w=0&k=20&c=SrBsvSecpK3M0GQGbaErJbBXqG7D1lk7GbTckPSlyUg=);
+}
+
+#header {
+  text-align: center;
+  border-bottom: solid 10px;
+}
+#header h1 {
+  color: yellow;
+  font-size: 40px;
+}
+#header h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.HP {
+  border-bottom: solid 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HP a {
+  color: white;
+  font-size: 25px;
+  margin: 20px;
+}
+.HP a:hover {
+  color: rgb(88, 124, 207);
+}
+.HP img {
+  height: 15rem;
+  border: 15px solid black;
+  margin: 15px;
+}
+.HP:hover {
+  background-color: black;
+}
+
+footer a {
+  display: block;
+  text-align: right;
+  background-color: black;
+  text-decoration: none;
+  color: lightblue;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+footer a:hover {
+  color: rgb(88, 124, 207);
+}/*# sourceMappingURL=style.css.map */
