@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1424052498/photo/dark-blue-sky-with-stars-background.webp?b=1&s=170667a&w=0&k=20&c=SrBsvSecpK3M0GQGbaErJbBXqG7D1lk7GbTckPSlyUg=)
+}
+
+#header{
+    text-align: center;
+    border-bottom: solid 10px;
+
+    h1 {
+        color: yellow;
+        font-size: 40px;
+}   
+
+    h2 {
+        color: white;
+        font-size: 30px;
+    }
+}
+
+// Above is an example of nesting for the header (top) of the page.
+
+$prime-text-color: rgb(88, 124, 207);
+$prime-text-size: 25px;
+$prime-border: 15px solid black;
+
+// The above section contains established variables.
+
+.HP {
+    border-bottom: solid 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+    color: white;
+    font-size: $prime-text-size;
+    margin: 20px;
+    }
+
+    a:hover{
+        color: $prime-text-color;
+    }
+
+    img{
+        height: 15rem;
+        border: $prime-border;
+        margin: 15px;
+    }
+
+    &:hover{
+        background-color: black;
+    }
+}
+
+// Above is an example of nesting for the div's containing book information.
+
+footer a{
+    display: block;
+    text-align: right;
+    background-color: black;
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+
+    &:hover{
+        color: $prime-text-color;
+    }
+}
+
+// The above is another example of nesting for the footer.
